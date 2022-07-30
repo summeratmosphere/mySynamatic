@@ -1,0 +1,21 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+nav .logo {
+    width: 60%;
+}
