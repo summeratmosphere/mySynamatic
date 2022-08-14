@@ -1,6 +1,7 @@
 * {
     margin:0;
     padding:0;
+    background-color: black;
 }
 
 .advertisement-image{
@@ -10,6 +11,8 @@
 
 nav {
     width: 100%;
+    border-bottom: 1px solid rgba(248,244,244,.6);
+    top:0;
     top: 0;
     display: flex;
     position: absolute;
@@ -20,31 +23,25 @@ nav {
     width: 50%;
     margin-left: 10px;
 }
-
 .nav-bar {
     display: flex;
     width: 50%;
     justify-content: space-evenly;
 }
-
 .categories-div {
     display: flex;
     align-items: center;
 }
-
 p.categories-text {
     color: white;
 }
-
 .favorites-div{
     display: flex;
     align-items: center;
 }
-
 .favorites-text{
     color:white;
 }
-
 input.search-input {
     height: 48px;
     border: 1px solid white;
@@ -59,12 +56,10 @@ img.magnifying-glass {
     top: 20px;
     right: 323px;
 }
-
 img.logo-image {
     width: 129px;
     margin-top: 10px;
 }
-
 img.favorites-heart {
     margin-left: 10px;
 }
@@ -79,4 +74,4 @@ img.favorites-heart {
 
 hr.line {
     width: 95%;
-}
+} 
