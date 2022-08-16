@@ -83,3 +83,11 @@ p.categories-text {
     font-family: Spartan;
     font-size: 23px;
 }
+
+img.trailer-button {
+    width: 210px;
+    height: 58px;
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}
