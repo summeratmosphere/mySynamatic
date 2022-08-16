@@ -15,6 +15,7 @@ nav {
     display: flex;
     position: absolute;
     align-items: center;
+    background-image: linear-gradient(black,transparent);
 }
 
 .logo {
@@ -37,9 +38,12 @@ p.categories-text {
     display: flex;
     align-items: center;
 }
-.favorites-text{
-    color:white;
+.favorites-text {
+    color: white;
+    font-family: Spartan;
+    font-size: 23px;
 }
+
 input.search-input {
     height: 48px;
     border: 1px solid white;
@@ -74,7 +78,8 @@ hr.line {
     width: 95%;
 } 
 
-.advertisement-div {
-    height: 200px;
-    background-image: linear-gradient(black,yellow);
+p.categories-text {
+    color: white;
+    font-family: Spartan;
+    font-size: 23px;
 }
