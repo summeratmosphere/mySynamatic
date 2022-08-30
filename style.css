@@ -11,7 +11,6 @@
 nav {
     width: 100%;
     top:0;
-    top: 0;
     display: flex;
     position: absolute;
     align-items: center;
@@ -40,7 +39,7 @@ p.categories-text {
 }
 .favorites-text {
     color: white;
-    font-family: Spartan;
+    font-family: System-ui;
     font-size: 23px;
 }
 
@@ -56,7 +55,7 @@ img.magnifying-glass {
     position: absolute;
     width: 36px;
     top: 20px;
-    right: 323px;
+    right: 330px;
 }
 img.logo-image {
     width: 129px;
@@ -80,7 +79,7 @@ hr.line {
 
 p.categories-text {
     color: white;
-    font-family: Spartan;
+    font-family: System-ui;
     font-size: 23px;
 }
 
@@ -89,5 +88,32 @@ img.trailer-button {
     height: 58px;
     position: absolute;
     top: 500px;
-    left: 100px;
+    left: 9px;
+}
+
+p.release-date {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 500px;
+    left: 280px;
+    font-family: system-ui;
+}
+
+p.movie-plot {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 599px;
+    left: 14px;
+    font-family: system-ui;
+}
+
+.bottom-gradient {
+    width: 100%;
+    top: 562px;
+    position: absolute;
+    background-image: linear-gradient(to top, black,#00000014);
+    /* border: 1px solid white; */
+    height: 146px;
 }
