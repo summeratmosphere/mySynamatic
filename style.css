@@ -87,7 +87,7 @@ img.trailer-button {
     width: 210px;
     height: 58px;
     position: absolute;
-    top: 500px;
+    top: 444px;
     left: 9px;
 }
 
@@ -95,8 +95,8 @@ p.release-date {
     position: absolute;
     color: white;
     font-size: 20px;
-    top: 500px;
-    left: 280px;
+    top: 444px;
+    left: 231px;
     font-family: system-ui;
 }
 
@@ -104,16 +104,30 @@ p.movie-plot {
     position: absolute;
     color: white;
     font-size: 20px;
-    top: 599px;
+    top: 535px;
     left: 14px;
     font-family: system-ui;
 }
 
 .bottom-gradient {
     width: 100%;
-    top: 562px;
+    top: 570px;
     position: absolute;
-    background-image: linear-gradient(to top, black,#00000014);
+    background-image: linear-gradient(to top, black,#00000030);
     /* border: 1px solid white; */
     height: 146px;
+}
+
+img.crop {
+    position: absolute;
+    width: 295px;
+    height: 114px;
+    left: 289px;
+    top: 594px;
+}
+
+p.newly-released-headline {
+    position: absolute;
+    color: black;
+    top: 762px;
 }
