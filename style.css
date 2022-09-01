@@ -14,7 +14,7 @@ nav {
     display: flex;
     position: absolute;
     align-items: center;
-    background-image: linear-gradient(black,transparent);
+    background-image: linear-gradient(#141413,transparent);
 }
 
 .logo {
@@ -31,21 +31,21 @@ nav {
     align-items: center;
 }
 p.categories-text {
-    color: white;
+    color: #E0E0E0;
 }
 .favorites-div{
     display: flex;
     align-items: center;
 }
 .favorites-text {
-    color: white;
+    color: #E0E0E0;
     font-family: System-ui;
     font-size: 23px;
 }
 
 input.search-input {
     height: 48px;
-    border: 1px solid white;
+    border: 1px solid #E0E0E0;
     border-radius: 14px;
     width: 319px;
     background: none;
@@ -78,7 +78,7 @@ hr.line {
 } 
 
 p.categories-text {
-    color: white;
+    color: #E0E0E0;
     font-family: System-ui;
     font-size: 23px;
 }
@@ -93,7 +93,7 @@ img.trailer-button {
 
 p.release-date {
     position: absolute;
-    color: white;
+    color: #E0E0E0;
     font-size: 20px;
     top: 444px;
     left: 231px;
@@ -102,7 +102,7 @@ p.release-date {
 
 p.movie-plot {
     position: absolute;
-    color: white;
+    color: #E0E0E0;
     font-size: 20px;
     top: 535px;
     left: 14px;
@@ -113,7 +113,7 @@ p.movie-plot {
     width: 100%;
     top: 570px;
     position: absolute;
-    background-image: linear-gradient(to top, black,#00000030);
+    background-image: linear-gradient(to top, #141413,#00000030);
     /* border: 1px solid white; */
     height: 146px;
 }
@@ -128,6 +128,18 @@ img.crop {
 
 p.newly-released-headline {
     position: absolute;
-    color: black;
     top: 762px;
+    color: #E0E0E0;
+    font-family: system-ui;
+    font-size: 54px;
+    left: 20px;
+}
+
+body {
+    background-color: #141413
+}
+
+.movie-posters-list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
