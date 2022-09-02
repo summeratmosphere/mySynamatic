@@ -127,19 +127,23 @@ img.crop {
 }
 
 p.newly-released-headline {
-    position: absolute;
-    top: 762px;
     color: #E0E0E0;
     font-family: system-ui;
     font-size: 54px;
-    left: 20px;
+    margin-top: 116px;
+    margin-bottom: 94px;
+    margin-left: 11px;
 }
 
 body {
     background-color: #141413
 }
 
-.movie-posters-list{
+.movie-posters-list {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: 20% 20% 20% 20%;
+}
+
+img.movie-poster {
+    width: 80%;
 }
