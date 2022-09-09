@@ -19,11 +19,11 @@ nav {
 
 .logo {
     width: 50%;
-    margin-left: 10px;
+    margin-left: 34px;
 }
 .nav-bar {
     display: flex;
-    width: 50%;
+    width: 59%;
     justify-content: space-evenly;
 }
 .categories-div {
@@ -55,7 +55,7 @@ img.magnifying-glass {
     position: absolute;
     width: 36px;
     top: 20px;
-    right: 330px;
+    right: 362px;
 }
 img.logo-image {
     width: 129px;
@@ -87,8 +87,8 @@ img.trailer-button {
     width: 210px;
     height: 58px;
     position: absolute;
-    top: 444px;
-    left: 9px;
+    top: 387px;
+    left: 34px;
 }
 
 p.release-date {
@@ -96,7 +96,7 @@ p.release-date {
     color: #E0E0E0;
     font-size: 20px;
     top: 444px;
-    left: 231px;
+    left: 41px;
     font-family: system-ui;
 }
 
@@ -105,7 +105,7 @@ p.movie-plot {
     color: #E0E0E0;
     font-size: 20px;
     top: 535px;
-    left: 14px;
+    left: 41px;
     font-family: system-ui;
 }
 
@@ -131,8 +131,8 @@ p.newly-released-headline {
     font-family: system-ui;
     font-size: 54px;
     margin-top: 116px;
-    margin-bottom: 94px;
-    margin-left: 11px;
+    margin-bottom: 82px;
+    margin-left: 41px;
 }
 
 body {
@@ -141,9 +141,31 @@ body {
 
 .movie-posters-list {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-columns: 25.5% 25.5% 25.5% 25.5%;
+    margin-left: 41px;
 }
 
 img.movie-poster {
     width: 80%;
+}
+
+.movie-poster-div {
+    margin-bottom: 82px;
+}
+
+p.movie-title {
+    color: #E0E0E0;
+    font-family: system-ui;
+    font-size: 138%;
+    margin-top: 7%;
+}
+
+img.star {
+    margin-top: 8%;
+    width: 10%;
+}
+
+p.rating {
+    color: #E0E0E0;
+    font-family: system-ui;
 }
