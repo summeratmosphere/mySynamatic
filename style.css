@@ -141,7 +141,7 @@ body {
 
 .movie-posters-list {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-columns: 25.4% 25.4% 25.4% 25.4%;
     margin-left: 41px;
 }
 
@@ -168,4 +168,10 @@ img.star {
 p.rating {
     color: #E0E0E0;
     font-family: system-ui;
+    margin-top: 38px;
+    font-size: 17px;
+}
+
+.star.and.rating {
+    display: flex;
 }
