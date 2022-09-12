@@ -141,7 +141,7 @@ body {
 
 .movie-posters-list {
     display: grid;
-    grid-template-columns: 25.5% 25.5% 25.5% 25.5%;
+    grid-template-columns: 20% 20% 20% 20%;
     margin-left: 41px;
 }
 
