@@ -83,7 +83,7 @@ p.categories-text {
     font-size: 23px;
 }
 
-img.trailer-button {
+img.promoted-trailer-button {
     width: 210px;
     height: 58px;
     position: absolute;
@@ -162,8 +162,10 @@ p.movie-title {
 
 img.star {
     margin-top: 8%;
-    width: 10%;
+    width: 9%;
+    height: 10%;
 }
+
 
 p.rating {
     color: #E0E0E0;
@@ -174,4 +176,20 @@ p.rating {
 
 .star.and.rating {
     display: flex;
+}
+
+p.rating-numerator{
+    color: #E0E0E0;
+    font-family: system-ui;
+    margin-top: 10%;
+    margin-left: 2%;
+    font-size: 115%;
+}
+
+p.rating-denominator{
+    color: #707070;
+    font-family: system-ui;
+    margin-top: 10%;
+    margin-left: 2%;
+    font-size: 115%;
 }
