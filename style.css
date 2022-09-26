@@ -132,7 +132,6 @@ body {
 
 img.movie-poster {
     width: 80%;
-    position: relative;
 }
 
 .movie-poster-div {
@@ -185,9 +184,14 @@ img.trailer-button {
     margin-top: 5%;
 }
 
-img.heart-background {
+img.heart {
     position: absolute;
-    left: 44%;
-    margin-top: 0%;
-    width: 3%;
+    left: 67%;
+    margin-top: 1%;
+    width: 11%;
+}
+
+.movie-poster-div {
+    margin-bottom: 82px;
+    position: relative;
 }
