@@ -1,11 +1,12 @@
-* {
+/* * {
     margin:0;
     padding:0;
-}
+} */
+
 .advertisement-image{
     width: 100%;
-    /* position:absolute; */
 }
+
 nav {
     width: 100%;
     top:0;
@@ -118,7 +119,7 @@ p.newly-released-headline {
     font-family: system-ui;
     font-size: 54px;
     margin-top: 116px;
-    margin-bottom: 82px;
+    margin-bottom: 7%;
     margin-left: 41px;
 }
 body {
@@ -194,4 +195,11 @@ img.heart {
 .movie-poster-div {
     margin-bottom: 82px;
     position: relative;
+}
+
+img.line {
+    width: 60%;
+    height: .25%;
+    padding-bottom: 17%;
+    left: 10%;
 }
