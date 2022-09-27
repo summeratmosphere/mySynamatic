@@ -24,11 +24,14 @@ nav {
     width: 50%;
     margin-left: 34px;
 }
+
 .nav-bar {
     display: flex;
     width: 59%;
     justify-content: space-evenly;
+    align-items: center;
 }
+
 .categories-div {
     display: flex;
     align-items: center;
@@ -74,9 +77,15 @@ img.favorites-heart {
     display: flex;
     justify-content: center;
 }
+
 hr.line {
-    width: 95%;
-} 
+    width: 100%;
+    position: absolute;
+    color: white;
+    top: 22%;
+    margin: 0;
+}
+
 p.categories-text {
     color: #E0E0E0;
     font-family: System-ui;
@@ -200,6 +209,7 @@ img.heart {
 .movie-poster-div {
     margin-bottom: 82px;
     position: relative;
+    width: 86%;
 }
 
 img.line {
