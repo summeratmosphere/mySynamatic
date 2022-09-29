@@ -124,14 +124,16 @@ p.newly-released-headline {
 body {
     background-color: #141413
 }
+
 .movie-posters-list {
     display: grid;
-    grid-template-columns: 25.4% 25.4% 25.4% 25.4%;
+    grid-template-columns: 25% 25% 25% 25%;
     margin-left: 41px;
+    margin-right: 7px;
 }
 
 img.movie-poster {
-    width: 80%;
+    width: 97%;
 }
 
 .movie-poster-div {
@@ -194,4 +196,7 @@ img.heart {
 .movie-poster-div {
     margin-bottom: 82px;
     position: relative;
+    width: 90%;
+    left: 1%;
 }
+
