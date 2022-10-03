@@ -209,16 +209,45 @@ img.heart {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 3%;
 }
 
 
-hr.coming-line {
-    width: 55%;
-    color: yellow;
+hr.coming-line {    
+    width: 55%;    
+    background-color: #E0E0E0;    
+    border: none;    
+    height: 0.06em;
+    margin-bottom: 6%;
+}
+
+p.coming-soon-headline {
+    color: #E0E0E0;
+    font-family: system-ui;
+    font-size: 54px;
+    margin-bottom: 6%;
+    margin-left: 41px;
+}
+
+.bottom-line-div {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
 }
 
 
+hr.bottom-line {    
+    width: 95%;    
+    background-color: #E0E0E0;    
+    border: none;    
+    height: 0.06em;
+    margin-bottom: 6%;
+}
 
+.bottom-logo {
+    display: flex;
+    align-items: center;
+}
 
 
