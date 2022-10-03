@@ -132,6 +132,7 @@ body {
     grid-template-columns: 25% 25% 25% 25%;
     margin-left: 41px;
     margin-right: 7px;
+    margin-top: 6%;
 }
 
 img.movie-poster {
@@ -204,16 +205,20 @@ img.heart {
 }
 
 .coming-line-div {
-    position: absolute;
-    top: 618%;
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 3%;
 }
 
+
 hr.coming-line {
-    width: 95%;
+    width: 55%;
+    color: yellow;
 }
+
+
 
 
 
