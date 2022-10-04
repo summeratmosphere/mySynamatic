@@ -4,6 +4,7 @@
 }
 .advertisement-image{
     width: 100%;
+    
     /* position:absolute; */
 }
 nav {
@@ -258,5 +259,14 @@ img.bottom-logo-image {
     margin-top: .25em;
 }
 
+@media only screen and (max-width: 500px){
+    .advertisement-image{
+        width: 100%;
+        display: none;
+    }
 
+    img.mobile-advertisement {
+        width: 100%;
+    }
+}
 
