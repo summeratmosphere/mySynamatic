@@ -310,20 +310,22 @@ img.mobile-logo {
         margin-left: 2%;
         position: absolute;
         right: 89%;
-        margin-top: -24%;
+        margin-top: 6%;
         width: 7%;
     }
 
     .mobile-nav {
-        bottom: 86%;
+        /* bottom: 86%; */
         position: absolute;
         width: 100%;
         display: flex;
+        border: 3px solid yellow;
+        top: 1%;
+        height: 7%;
     }
 
     img.logo-image {
         width: 23%;
-        bottom: 64px;
         margin-left: 37%;
         position: absolute;
     }
@@ -331,7 +333,7 @@ img.mobile-logo {
     img.mobile-magnifying-glass {
         margin-left: 87%;
         width: 10%;
-        margin-top: -28%;
+        margin-top: 4%;
         position: absolute;
     }
 
