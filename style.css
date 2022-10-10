@@ -281,8 +281,11 @@ img.mobile-logo {
         display: block;
     }
 
+.mobile-line-div {
+    display: none;
+    }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 768px){
 
     .advertisement-image{
         display: none;
@@ -335,6 +338,10 @@ img.mobile-logo {
         width: 9%;
         height: 82%;
         margin-top: 1%;
+    }
+
+    .line-div {
+        display: none;
     }
 
 }
