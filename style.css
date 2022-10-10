@@ -314,34 +314,39 @@ img.mobile-logo {
         height: 33%;
     }
 
+    img.mobile-magnifying-glass {
+        margin-left: 81%;
+        width: 10%;
+        margin-bottom: 3%;
+    }
 
     img.menu {
-        /* margin-left: 2%;
+        margin-left: 2%;
         position: absolute;
         right: 89%;
-        width: 7%; */
+        margin-top: -24%;
+        width: 7%;
     }
 
     .mobile-nav {
-        top: 0%;
+        top: 14%;
         position: absolute;
         width: 100%;
         display: flex;
-        align-items: center;
-        
     }
 
     img.logo-image {
-        /* width: 23%;
+        width: 23%;
         bottom: 64px;
         margin-left: 37%;
-        position: absolute; */
+        position: absolute;
     }
     
     img.mobile-magnifying-glass {
-        /* margin-left: 87%;
+        margin-left: 87%;
         width: 10%;
-        position: absolute; */
+        margin-top: -28%;
+        position: absolute;
     }
 
 }
