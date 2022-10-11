@@ -54,7 +54,8 @@ p.categories-text {
 .favorites-text {
     color: #E0E0E0;
     font-family: System-ui;
-    font-size: 23px;
+    font-size: 2vw;
+
 }
 input.search-input {
     height: 48px;
@@ -88,7 +89,7 @@ hr.line {
 p.categories-text {
     color: #E0E0E0;
     font-family: System-ui;
-    font-size: 23px;
+    font-size: 2vw;
 }
 
 img.promoted-trailer-button {
