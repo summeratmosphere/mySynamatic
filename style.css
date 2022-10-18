@@ -68,8 +68,8 @@ input.search-input {
 img.magnifying-glass {
     position: absolute;
     width: 36px;
-    top: 30%;
-    right: 27.5%;
+    top: 2vh;
+    right: 24.5vw;
 }
 
 
@@ -312,10 +312,10 @@ img.mobile-logo {
     }
 
     img.menu {
-        width: 5%;
-        height: 30%;
-        margin-top: 5%;
-        margin-left: 3%;
+        width: 5vw;
+        height: 4vh;
+        margin-top: 4vh;
+        margin-left: 3vw;
     }
 
     .mobile-nav {
