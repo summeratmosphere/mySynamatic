@@ -21,7 +21,7 @@ nav {
 }
 
 .desktop-logo {
-    width: 58%;
+    width: 58vw;
 }
 
 img.desktop-logo-image {
@@ -32,12 +32,13 @@ img.desktop-logo-image {
 
 .nav-bar {
     display: flex;
-    width: 66%;
+    width: 55%;
     justify-content: space-evenly;
+    margin-right: 3vw;
 }
 
 .search-input-div {
-    margin-top: 1.25%;
+    margin-top: 0vw;
 }
 
 .categories-div {
@@ -58,23 +59,23 @@ p.categories-text {
 
 }
 input.search-input {
-    height: 48px;
-    border: 1px solid #E0E0E0;
-    border-radius: 14px;
-    width: 319px;
+    height: 3.5vw;
+    border: 0.005vw solid #E0E0E0;
+    border-radius: 1vw;
+    width: 21vw;
     background: none;
 }
 
 img.magnifying-glass {
     position: absolute;
-    width: 36px;
-    top: 2vh;
-    right: 24.5vw;
+    width: 2.5vw;
+    top: 7vh;
+    right: 28vw;
 }
 
 
 img.favorites-heart {
-    margin-left: 10px;
+    margin-left: 0vw;
 }
 .line-div {
     position: absolute;
