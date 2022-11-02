@@ -34,32 +34,42 @@ img.desktop-logo-image {
 .nav-bar {
     display: flex;
     width: 72%;
-    justify-content: space-evenly;
-    gap: 3%;
+    margin-left: 1vw;
+}
+
+.cat-and-fav {
+    display: flex;
 }
 
 .search-input-div {
     display: flex;
     width: 24vw;
     align-items: center;
-    gap: 2%;
 }
+
 img.magnifying-glass {
-    width: 4vw;
+    width: 3vw;
+    margin-left: 17.5vw;
+    position: absolute;
 }
 
 .categories-div {
     display: flex;
     align-items: center;
+    margin-left: 1vw;
 }
+
 p.categories-text {
     color: #E0E0E0;
 }
-.favorites-div{
+
+.favorites-div {
     display: flex;
     align-items: center;
-    gap: 4%;
+    margin-left: 3vw;
+    gap: 0.75vw;
 }
+
 .favorites-text {
     color: #E0E0E0;
     font-family: System-ui;
@@ -346,11 +356,5 @@ img.mobile-logo {
     .line-div {
         display: none;
     }
-
-    /* p.p {
-        color: white;
-        font-size: 100vh;
-        margin-left: 100vh;
-    } */
 
 }
