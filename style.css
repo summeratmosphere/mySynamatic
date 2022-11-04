@@ -91,13 +91,13 @@ img.favorites-heart {
 .line-div {
     position: absolute;
     top: 13vh;
-    width: 66vw;
+    width: 100vw;
     display: flex;
     justify-content: center;
 }
 
 hr.line {
-    width: 41vw;
+    width: 93vw;
 }
 
 p.categories-text {
