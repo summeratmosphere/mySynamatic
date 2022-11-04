@@ -90,14 +90,16 @@ img.favorites-heart {
 }
 .line-div {
     position: absolute;
-    top: 81px;
-    width: 100%;
+    top: 13vh;
+    width: 66vw;
     display: flex;
     justify-content: center;
 }
+
 hr.line {
-    width: 95%;
-} 
+    width: 41vw;
+}
+
 p.categories-text {
     color: #E0E0E0;
     font-family: System-ui;
