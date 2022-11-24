@@ -97,7 +97,10 @@ img.favorites-heart {
 }
 
 hr.line {
-    width: 41vw;
+    width: 94.5vw;
+    top: 6vw;
+    position: absolute;
+    left: 2vw;
 }
 
 p.categories-text {
@@ -107,42 +110,46 @@ p.categories-text {
 }
 
 img.promoted-trailer-button {
-    width: 210px;
-    height: 58px;
+    width: 20vw;
+    height: 5vw;
     position: absolute;
-    top: 387px;
-    left: 34px;
+    top: 37vw;
+    left: 2vw;
 }
+
 p.release-date {
     position: absolute;
     color: #E0E0E0;
-    font-size: 20px;
-    top: 444px;
-    left: 41px;
+    font-size: 1.25vw;
+    top: 37.5vw;
+    left: 23vw;
     font-family: system-ui;
 }
+
 p.movie-plot {
     position: absolute;
-    color: #E0E0E0;
-    font-size: 20px;
-    top: 535px;
+    color: rgb(224, 224, 224);
+    font-size: 1.5vw;
+    top: 44vw;
     left: 41px;
     font-family: system-ui;
 }
+
 .bottom-gradient {
     width: 100%;
-    top: 570px;
+    top: 42vw;
     position: absolute;
     background-image: linear-gradient(to top, #141413,#00000030);
     /* border: 1px solid white; */
-    height: 146px;
+    height: 11vw;
 }
+
 img.crop {
     position: absolute;
-    width: 295px;
-    height: 114px;
-    left: 289px;
-    top: 594px;
+    width: 30vw;
+    height: 10.5vw;
+    left: 12vw;
+    top: 42vw;
 }
 
 p.newly-released-headline {
