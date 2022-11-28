@@ -155,10 +155,10 @@ img.crop {
 p.newly-released-headline {
     color: #E0E0E0;
     font-family: system-ui;
-    font-size: 54px;
-    margin-top: 116px;
-    margin-bottom: 6%;
-    margin-left: 41px;
+    font-size: 5vw;
+    margin-top: 7vw;
+    margin-bottom: 6vw;
+    margin-left: 3vw;
 }
 
 body {
@@ -167,10 +167,9 @@ body {
 
 .movie-posters-list {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    margin-left: 41px;
-    margin-right: 7px;
-    margin-top: 6%;
+    grid-template-columns: 24vw 24vw 24vw 24vw;
+    margin-left: 3vw;
+    margin-top: 7vw;
 }
 
 img.movie-poster {
@@ -303,10 +302,13 @@ img.mobile-logo {
         display: block;
     }
 
-.mobile-line-div {
-    display: none;
+    hr.-mobile-line {
+        display: none;
     }
 
+    img.mobile-promoted-trailer-button {
+        display: none;
+    }
 @media only screen and (max-width: 768px){
 
     .advertisement-image{
@@ -334,8 +336,8 @@ img.mobile-logo {
 
     img.menu {
         width: 5vw;
-        height: 4vh;
-        margin-top: 4vh;
+        height: 4vw;
+        margin-top: 4vw;
         margin-left: 3vw;
     }
 
@@ -345,25 +347,66 @@ img.mobile-logo {
         width: 100%;
         display: flex;
         /* border: 2px solid yellow; */
-        height: 5%;
+        height: 5vw;
     }
     
     img.logo-image {
-        width: 21%;
-        margin-left: 31%;
-        height: 85%;
-        margin-top: 1%;
+        width: 21vw;
+        margin-left: 31vw;
+        height: 10vw;
+        margin-top: 1.5vw;
     }
 
     img.mobile-magnifying-glass {
-        margin-left: 29%;
-        width: 9%;
-        height: 82%;
-        margin-top: 1%;
+        margin-left: 29vw;
+        width: 9vw;
+        height: 8vw;
+        margin-top: 1.5vw;
     }
 
-    .line-div {
+    hr.line {
+        display: none;
+    }
+    
+    hr.-mobile-line {
+        height: 0vw;
+        width: 96vw;
+        position: absolute;
+        top: 13vw;
+        color: #E0E0E0;
+        left: 2vw;
+    }
+
+    img.promoted-trailer-button {
         display: none;
     }
 
+    img.mobile-promoted-trailer-button {
+        position: absolute;
+        width: 40vw;
+        height: 12vw;
+        top: 116vw;
+    }
+    
+    p.release-date {
+        display: none;
+    }
+    
+    p.movie-plot {
+        display: none;
+    }
+
+    .bottom-gradient {
+        display: none;
+    }
+
+    img.mobile-promoted-trailer-button {
+        position: absolute;
+        width: 50vw;
+        height: 14vw;
+        top: 148vw;
+        left: 26vw;
+    }
+    
+    
 }
