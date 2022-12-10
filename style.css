@@ -302,6 +302,27 @@ img.mobile-logo {
     img.mobile-promoted-trailer-button {
         display: none;
     }
+
+    p.mobile-release-date-1 {
+        display: none;
+    }
+
+    p.mobile-release-date-2 {
+        display: none;
+    }
+
+    p.mobile-tr-btn-text {
+        display: none;
+    }
+    
+    p.mobile-movie-plot {
+        font-family: System-ui;
+        color: #707070;
+        text-align: center;
+        margin-top: 4vw;
+        display: none;
+    } 
+
 @media only screen and (max-width: 768px){
 
     .advertisement-image{
@@ -400,7 +421,55 @@ img.mobile-logo {
         height: 14vw;
         top: 148vw;
         left: 26vw;
+        display: block;
     }
-    
+
+    .rectangle {
+        background: #141413;
+        height: 4vw;
+        width: 24vw;
+        position: absolute;
+        top: 153vw;
+        left: 41vw;
+    }
+
+    p.mobile-tr-btn-text {
+        color: #E0E0E0;
+        position: absolute;
+        top: 151.5vw;
+        left: 44vw;
+        font-size: 4vw;
+        font-family: System-ui;
+        display: block;
+    }
+
+    p.mobile-release-date-1 {
+        color: #E0E0E0;
+        position: absolute;
+        top: 162vw;
+        left: 43vw;
+        font-size: 4vw;
+        font-family: System-ui;
+        display: block;
+    }
+
+    p.mobile-release-date-2 {
+        color: #E0E0E0;
+        position: absolute;
+        top: 167vw;
+        left: 43vw;
+        font-size: 3vw;
+        font-family: System-ui;
+        text-indent: 3vw;
+        display: block;
+    }
+
+    p.mobile-movie-plot {
+        font-family: System-ui;
+        color: #707070;
+        text-align: center;
+        margin-top: 4vw;
+        display: block;
+    } 
     
 }
