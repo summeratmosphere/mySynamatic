@@ -159,6 +159,7 @@ p.newly-released-headline {
     margin-top: 7vw;
     margin-bottom: 6vw;
     margin-left: 3vw;
+    display: block;
 }
 
 body {
@@ -323,6 +324,10 @@ img.mobile-logo {
         display: none;
     } 
 
+    p.mobile-nr-headline {
+        display: none;
+    }
+
 @media only screen and (max-width: 768px){
 
     .advertisement-image{
@@ -467,9 +472,26 @@ img.mobile-logo {
     p.mobile-movie-plot {
         font-family: System-ui;
         color: #707070;
-        text-align: center;
         margin-top: 4vw;
         display: block;
-    } 
+        margin-left: 6vw;
+        margin-right: 6vw;
+        font-size: 5vw;
+    }
+    
+    p.newly-released-headline {
+        display: none;
+        
+    }
+
+    p.mobile-nr-headline {
+        color: #E0E0E0;
+        font-family: system-ui;
+        font-size: 8vw;
+        margin-top: 12vw;
+        margin-bottom: 6vw;
+        margin-left: 6vw;
+        display: block;
+    }
     
 }
