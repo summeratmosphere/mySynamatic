@@ -328,6 +328,10 @@ img.mobile-logo {
         display: none;
     }
 
+    .mobile-mpl-background {
+       display: none;
+}
+
 @media only screen and (max-width: 768px){
 
     .advertisement-image{
@@ -490,8 +494,34 @@ img.mobile-logo {
         font-size: 8vw;
         margin-top: 12vw;
         margin-bottom: 6vw;
-        margin-left: 6vw;
+        margin-left: 10vw;
         display: block;
     }
+
+    .movie-posters-list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    img.movie-poster {
+        width: 80vw;
+        margin-top: 6vw;
+    }
+
+    .movie-poster-div {
+        margin-bottom: 6vw;
+        position: relative;
+        width: 21.5vw;
+        left: 3vw;
+    }
+
+    .mobile-mpl-background {
+        background-color: #353535;
+    width: 92vw;
+    height: 138vw;
+    margin-left: 4vw;
+    display: block;
+    z-index: 0;    
+}
     
 }
