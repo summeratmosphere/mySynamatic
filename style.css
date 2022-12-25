@@ -519,9 +519,9 @@ img.mobile-logo {
         background-color: #353535;
     width: 92vw;
     height: 138vw;
-    margin-left: 4vw;
     display: block;
-    z-index: 0;    
+    position: absolute; 
+    left: 2vw;
 }
     
 }
