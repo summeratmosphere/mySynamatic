@@ -504,8 +504,8 @@ img.mobile-logo {
     }
 
     img.movie-poster {
-        width: 80vw;
-        margin-top: 6vw;
+        width: 87vw;
+        margin-top: 4.5vw;
     }
 
     .movie-poster-div {
@@ -517,11 +517,27 @@ img.mobile-logo {
 
     .mobile-mpl-background {
         background-color: #353535;
-    width: 92vw;
+    width: 95.5vw;
     height: 138vw;
     display: block;
     position: absolute; 
     left: 2vw;
+}
+
+img.heart {
+    position: absolute;
+    left: 74vw;
+    width: 11vw;
+    top: 5vw;
+}
+
+p.movie-title {
+    color: #E0E0E0;
+    font-family: system-ui;
+    font-size: 5vw;
+    margin-top: 1vw;
+    margin-left: 41vw;
+    left: 5vw;
 }
     
 }
