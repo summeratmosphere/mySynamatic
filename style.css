@@ -504,25 +504,29 @@ img.mobile-logo {
     }
 
     img.movie-poster {
-        width: 87vw;
+        width: 83vw;
         margin-top: 4.5vw;
+        margin-right: 3vw;
     }
 
     .movie-poster-div {
         margin-bottom: 6vw;
         position: relative;
-        width: 21.5vw;
-        left: 3vw;
+        width: 92.5vw;
+        left: 2vw;
+        text-align: center;
     }
 
     .mobile-mpl-background {
         background-color: #353535;
-    width: 95.5vw;
-    height: 138vw;
-    display: block;
-    position: absolute; 
-    left: 2vw;
-}
+        width: 93.5vw;
+        height: 161vw;
+        display: block;
+        position: absolute;
+        left: 3vw;
+    }
+    
+    
 
 img.heart {
     position: absolute;
@@ -534,10 +538,38 @@ img.heart {
 p.movie-title {
     color: #E0E0E0;
     font-family: system-ui;
-    font-size: 5vw;
-    margin-top: 1vw;
-    margin-left: 41vw;
-    left: 5vw;
+    font-size: 7vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
 }
-    
+
+img.star {
+    margin-top: 2.75vw;
+    width: 11.25vw;
+    height: 11vw;
+    margin-left: 4vw;
+}
+
+p.rating-numerator {
+    color: #E0E0E0;
+    font-family: system-ui;
+    margin-top: 5.5vw;
+    margin-left: 1.5vw;
+    font-size: 6.4vw;
+}
+
+p.rating-denominator {
+    color: #707070;
+    font-family: system-ui;
+    margin-top: 5.5vw;
+    margin-left: 0.2vw;
+    font-size: 6.4vw;
+}
+
+img.trailer-button {
+    width: 35vw;
+    margin-left: 21vw;
+    margin-top: 4.3vw;
+}
+
 }
