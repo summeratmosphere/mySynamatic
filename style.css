@@ -152,6 +152,7 @@ img.crop {
     top: 42vw;
 }
 
+
 p.newly-released-headline {
     color: #E0E0E0;
     font-family: system-ui;
@@ -515,6 +516,8 @@ img.mobile-logo {
         width: 92.5vw;
         left: 2vw;
         text-align: center;
+            background-color: #292927;
+            
     }
 
     .mobile-mpl-background {
