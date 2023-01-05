@@ -168,7 +168,7 @@ body {
 
 .movie-posters-list {
     display: grid;
-    grid-template-columns: 24.5vw 24.5vw 24.5vw 24.5vw;
+    grid-template-columns: 23.9vw 23.9vw 23.9vw 23.9vw;
     margin-left: 3vw;
     margin-top: 7vw;
 }
@@ -580,9 +580,10 @@ hr.bottom-line {
     color: #E0E0E0;
     left: 2vw;
 }
-
 img.bottom-logo-image {
     width: 17vw;
     margin-left: 4vw;
+    margin-top: 0.5vw;
+    margin-bottom: 1vw;
 }
 }
