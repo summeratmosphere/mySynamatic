@@ -34,8 +34,9 @@ img.desktop-logo-image {
 .nav-bar {
     display: flex;
     width: 72%;
-    margin-left: 1vw;
+    margin-right: 2vw;
 }
+
 
 .cat-and-fav {
     display: flex;
@@ -63,6 +64,10 @@ p.categories-text {
     color: #E0E0E0;
 }
 
+img.categories-arrow {
+    width: 4vw;
+}
+
 .favorites-div {
     display: flex;
     align-items: center;
@@ -86,7 +91,8 @@ input.search-input {
 
 
 img.favorites-heart {
-    margin-left: 0vw;
+    margin-left: 0.25vw;
+    width: 2vw;
 }
 .line-div {
     position: absolute;
@@ -329,6 +335,20 @@ img.mobile-logo {
 
     .mobile-mpl-background {
        display: none;
+}
+
+p.action-headline {
+    color: #E0E0E0;
+    font-family: system-ui;
+    font-size: 5vw;
+    margin-top: 12vw;
+    margin-bottom: 6vw;
+    margin-left: 3vw;
+    display: block;
+}
+
+p.mobile-a-headline {
+    display: none;
 }
 
 @media only screen and (max-width: 768px){
@@ -585,5 +605,19 @@ img.bottom-logo-image {
     margin-left: 4vw;
     margin-top: 0.5vw;
     margin-bottom: 1vw;
+}
+
+p.mobile-a-headline {
+    color: #E0E0E0;
+    font-family: system-ui;
+    font-size: 8vw;
+    margin-top: 12vw;
+    margin-bottom: 10vw;
+    margin-left: 9vw;
+    display: block;
+}
+
+p.action-headline {
+    display: none;
 }
 }
