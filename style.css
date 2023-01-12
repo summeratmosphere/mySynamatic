@@ -158,7 +158,7 @@ img.crop {
     top: 42vw;
 }
 
-p.newly-released-headline {
+p.headline {
     color: #E0E0E0;
     font-family: system-ui;
     font-size: 5vw;
@@ -247,22 +247,16 @@ img.heart {
     right: 0vw;
 }
 
-.coming-line-div {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-
-hr.coming-line {    
+hr.categories-separator {    
     width: 55%;    
     background-color: #E0E0E0;    
     border: none;    
     height: 0.06em;
-    margin-bottom: 6%;
+    margin-left: 21vw;
+    margin-top: 1vw;
 }
 
-p.coming-soon-headline {
+p.headline {
     color: #E0E0E0;
     font-family: system-ui;
     font-size: 5vw;
@@ -337,12 +331,11 @@ img.mobile-logo {
        display: none;
 }
 
-p.action-headline {
+p.headline {
     color: #E0E0E0;
     font-family: system-ui;
     font-size: 5vw;
-    margin-top: 12vw;
-    margin-bottom: 6vw;
+    margin-top: 6vw;
     margin-left: 3vw;
     display: block;
 }
@@ -351,6 +344,15 @@ p.mobile-a-headline {
     display: none;
 }
 
+p.action-headline {
+    color: #E0E0E0;
+    font-family: system-ui;
+    font-size: 5vw;
+    margin-top: 11vw;
+    margin-left: 3vw;
+    display: block;
+    
+}
 @media only screen and (max-width: 768px){
 
     .advertisement-image{
@@ -497,7 +499,7 @@ p.mobile-a-headline {
         font-size: 5vw;
     }
     
-    p.newly-released-headline {
+    p.headline {
         display: none;
         
     }
@@ -583,7 +585,7 @@ hr.coming-line {
     margin-bottom: 6%;
 }
 
-p.coming-soon-headline {
+p.headline {
     color: #E0E0E0;
     font-family: system-ui;
     font-size: 8vw;
@@ -611,13 +613,13 @@ p.mobile-a-headline {
     color: #E0E0E0;
     font-family: system-ui;
     font-size: 8vw;
-    margin-top: 12vw;
-    margin-bottom: 10vw;
+    margin-top: 23vw;
+    margin-bottom: 8vw;
     margin-left: 9vw;
     display: block;
 }
 
-p.action-headline {
+p.headline {
     display: none;
 }
 }
