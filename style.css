@@ -350,9 +350,15 @@ p.action-headline {
     font-size: 5vw;
     margin-top: 11vw;
     margin-left: 3vw;
-    display: block;
-    
+    display: block; 
 }
+
+hr.categories-bottom-line {
+    width: 94.5vw;
+        top: 446.5vw;
+        position: absolute;
+        left: 2vw;
+    }
 @media only screen and (max-width: 768px){
 
     .advertisement-image{
@@ -622,4 +628,5 @@ p.mobile-a-headline {
 p.headline {
     display: none;
 }
+
 }
