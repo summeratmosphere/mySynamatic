@@ -282,10 +282,9 @@ hr.bottom-line {
 
 img.bottom-logo-image {
     width: 9vw;
-    /* margin-left: 3vw; */
-    /* margin-top: 1.75vw; */
-    /* margin-bottom: 0.5vw; */
-    padding: 1vw 1vw 0vw 5vw;
+    margin-left: 3vw;
+    margin-top: 1.75vw;
+    margin-bottom: .5vw;
 }
 
 .mobile-nav {
@@ -355,12 +354,11 @@ p.action-headline {
 }
 
 hr.categories-bottom-line {
-    /* width: 94.5vw; */
-    top: 446.5vw;
-    /* position: absolute; */
-    left: 2vw;
-    margin: 0 3vw;
-}
+    width: 94.5vw;
+        top: 446.5vw;
+        position: absolute;
+        left: 2vw;
+    }
 @media only screen and (max-width: 768px){
 
     .advertisement-image{
