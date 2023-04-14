@@ -276,15 +276,14 @@ p.headline {
 hr.bottom-line {
     width: 94.5vw;
     top: 272.5vw;
-    position: absolute;
-    left: 2vw;
+    margin-left: 2vw;
 }
 
 img.bottom-logo-image {
     width: 9vw;
     margin-left: 3vw;
-    margin-top: 1.75vw;
-    margin-bottom: .5vw;
+    margin-top: 0.75vw;
+    margin-bottom: 0.5vw;
 }
 
 .mobile-nav {
@@ -355,10 +354,9 @@ p.action-headline {
 
 hr.categories-bottom-line {
     width: 94.5vw;
-        top: 446.5vw;
-        position: absolute;
-        left: 2vw;
-    }
+    top: 446.5vw;
+    margin-left: 2vw;
+}
 @media only screen and (max-width: 768px){
 
     .advertisement-image{
@@ -618,14 +616,18 @@ img.bottom-logo-image {
 p.mobile-a-headline {
     color: #E0E0E0;
     font-family: system-ui;
-    font-size: 8vw;
+    font-size: 13vw;
     margin-top: 23vw;
     margin-bottom: 8vw;
-    margin-left: 9vw;
+    margin-left: 38vw;
     display: block;
 }
 
 p.headline {
+    display: none;
+}
+
+p.action-headline {
     display: none;
 }
 
