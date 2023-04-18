@@ -256,14 +256,6 @@ hr.categories-separator {
     margin-top: 1vw;
 }
 
-p.headline {
-    color: #E0E0E0;
-    font-family: system-ui;
-    font-size: 5vw;
-    margin-bottom: 6vw;
-    margin-left: 3vw;
-}
-
 .bottom-line-div {
     position: relative;
     width: 100%;
@@ -322,40 +314,22 @@ img.mobile-logo {
         display: none;
     } 
 
-    p.mobile-nr-headline {
-        display: none;
-    }
-
     .mobile-mpl-background {
        display: none;
-}
-
-p.headline {
-    color: #E0E0E0;
-    font-family: system-ui;
-    font-size: 5vw;
-    margin-top: 6vw;
-    margin-left: 3vw;
-    display: block;
-}
-
-p.mobile-a-headline {
-    display: none;
-}
-
-p.action-headline {
-    color: #E0E0E0;
-    font-family: system-ui;
-    font-size: 5vw;
-    margin-top: 11vw;
-    margin-left: 3vw;
-    display: block; 
 }
 
 hr.categories-bottom-line {
     width: 94.5vw;
     top: 446.5vw;
     margin-left: 2vw;
+}
+
+img.scroll.button {
+    display: none;
+}
+
+img.lscroll.button {
+    display: none;
 }
 @media only screen and (max-width: 768px){
 
@@ -502,20 +476,14 @@ hr.categories-bottom-line {
         margin-right: 6vw;
         font-size: 5vw;
     }
-    
-    p.headline {
-        display: none;
-        
-    }
 
-    p.mobile-nr-headline {
+    p.headline {
         color: #E0E0E0;
         font-family: system-ui;
         font-size: 8vw;
         margin-top: 12vw;
         margin-bottom: 10vw;
         margin-left: 9vw;
-        display: block;
     }
 
     .movie-posters-list {
@@ -613,22 +581,29 @@ img.bottom-logo-image {
     margin-bottom: 1vw;
 }
 
-p.mobile-a-headline {
+p.headline {
     color: #E0E0E0;
     font-family: system-ui;
-    font-size: 13vw;
-    margin-top: 23vw;
-    margin-bottom: 8vw;
-    margin-left: 38vw;
+    font-size: 9vw;
+    margin-top: 24vw;
+    margin-bottom: 12vw;
+    margin-left: 11vw;
+}
+
+img.rscroll.button {
+    position: absolute;
+    left: 83vw;
+    width: 11vw;
+    top: 59vw;
     display: block;
 }
 
-p.headline {
-    display: none;
-}
-
-p.action-headline {
-    display: none;
+img.lscroll.button {
+    position: absolute;
+    left: 0vw;
+    width: 11vw;
+    top: 59vw;
+    display: block;
 }
 
 }
