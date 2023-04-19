@@ -183,13 +183,9 @@ img.movie-poster {
     width: 20.5vw;
 }
 
-.movie-poster-div {
+.cat-movie-poster-div {
     margin-bottom: 82px;
-}
-
-.cat-movie-poster-div{
-    margin-bottom: 82px;
-    display: block;
+    position: relative;
 }
 
 p.movie-title {
