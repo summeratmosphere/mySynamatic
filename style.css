@@ -358,7 +358,7 @@ img.lscroll.button {
         margin-left: 3vw;
     }
 
-    .mobile-nav {
+    .h-mobile-nav {
         top: 0%;
         position: absolute;
         width: 100%;
@@ -384,7 +384,7 @@ img.lscroll.button {
     hr.line {
         height: 0vw;
         width: 96vw;
-        position: absolute;
+        /* position: absolute; */
         top: 13vw;
         color: #E0E0E0;
         left: 2vw;
@@ -605,10 +605,17 @@ hr.categories-separator {
     border: none;
     height: 0.06em;
     margin-left: 21vw;
-    margin-top: 8vw;
+    margin-top: 12vw;
 }
 
 .cat-movie-poster-div{
     display: none;
+}
+
+.c-mobile-nav {
+    top: 0%;
+    width: 100%;
+    display: flex;
+    /* border: 2px solid yellow; */
 }
 }
