@@ -242,10 +242,11 @@ img.heart {
 }
 
 .movie-poster-div {
-    margin-bottom: 6vw;
+    /* margin-bottom: 6vw; */
     position: relative;
     width: 21.5vw;
     right: 0vw;
+    padding-bottom: 6vw;
 }
 
 hr.categories-separator {    
@@ -326,6 +327,21 @@ img.rscroll.button {
 img.lscroll.button {
     display: none;
 }
+
+.h-mobile-nav {
+    display: none;
+}
+
+.test {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+img.test-image {
+    height: 15vw;
+}
+
 @media only screen and (max-width: 768px){
 
     .advertisement-image{
@@ -482,8 +498,8 @@ img.lscroll.button {
     }
 
     .movie-posters-list {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     img.movie-poster {
@@ -492,12 +508,10 @@ img.lscroll.button {
     }
 
     .movie-poster-div {
-        margin-bottom: 12vw;
         position: relative;
         width: 94vw;
         text-align: center;
         background: #3a3333;
-        height: 160vw;
     }
     
 img.heart {
@@ -618,4 +632,6 @@ hr.categories-separator {
     display: flex;
     /* border: 2px solid yellow; */
 }
+
+
 }
