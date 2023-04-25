@@ -247,13 +247,14 @@ img.heart {
     right: 0vw;
 }
 
-/* hr.categories-separator {    
-    width: 55%;    
-    background-color: #E0E0E0;    
-    border: none;    
+hr.categories-separator {    
+    width: 55%;
+    background-color: #E0E0E0;
+    border: none;
     height: 0.06em;
     margin-left: 21vw;
-} */
+    margin-top: 7vw;
+}
 
 .bottom-line-div {
     position: relative;
