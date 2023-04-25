@@ -102,7 +102,7 @@ img.favorites-heart {
     justify-content: center;
 }
 
-hr.line {
+hr.nav-bar-border {
     width: 94.5vw;
     top: 6vw;
     position: absolute;
@@ -163,7 +163,7 @@ p.headline {
     font-family: system-ui;
     font-size: 5vw;
     margin-top: 7vw;
-    margin-bottom: 6vw;
+    margin-bottom: 7vw;
     margin-left: 3vw;
     display: block;
 }
@@ -175,8 +175,7 @@ body {
 .movie-posters-list {
     display: grid;
     grid-template-columns: 23.9vw 23.9vw 23.9vw 23.9vw;
-    margin-left: 3vw;
-    margin-top: 7vw;
+    padding-left: 3vw;
 }
 
 img.movie-poster {
@@ -246,17 +245,15 @@ img.heart {
     position: relative;
     width: 21.5vw;
     right: 0vw;
-    padding-bottom: 6vw;
 }
 
-hr.categories-separator {    
+/* hr.categories-separator {    
     width: 55%;    
     background-color: #E0E0E0;    
     border: none;    
     height: 0.06em;
     margin-left: 21vw;
-    margin-top: 1vw;
-}
+} */
 
 .bottom-line-div {
     position: relative;
@@ -397,7 +394,7 @@ img.test-image {
         margin-top: 1.5vw;
     }
 
-    hr.line {
+    hr.nav-bar-border {
         height: 0vw;
         width: 96vw;
         /* position: absolute; */
@@ -498,8 +495,9 @@ img.test-image {
     }
 
     .movie-posters-list {
-        display: flex;
-        flex-direction: column-reverse;
+        /* display: flex;
+        flex-direction: column; */
+        display: none;
     }
 
     img.movie-poster {
@@ -512,6 +510,7 @@ img.test-image {
         width: 94vw;
         text-align: center;
         background: #3a3333;
+        margin-left: 3vw;
     }
     
 img.heart {
@@ -619,7 +618,6 @@ hr.categories-separator {
     border: none;
     height: 0.06em;
     margin-left: 21vw;
-    margin-top: 12vw;
 }
 
 .cat-movie-poster-div{
