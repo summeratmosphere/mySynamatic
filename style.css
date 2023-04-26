@@ -176,6 +176,7 @@ body {
     display: grid;
     grid-template-columns: 23.9vw 23.9vw 23.9vw 23.9vw;
     padding-left: 3vw;
+    row-gap: 5vw;
 }
 
 img.movie-poster {
@@ -253,7 +254,7 @@ hr.categories-separator {
     border: none;
     height: 0.06em;
     margin-left: 21vw;
-    margin-top: 7vw;
+    margin-top: 9vw;
 }
 
 .bottom-line-div {
@@ -269,6 +270,7 @@ hr.bottom-line {
     width: 94.5vw;
     top: 272.5vw;
     margin-left: 2vw;
+    margin-top: 7vw;
 }
 
 img.bottom-logo-image {
@@ -496,9 +498,9 @@ img.test-image {
     }
 
     .movie-posters-list {
-        /* display: flex;
-        flex-direction: column; */
-        display: none;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 10vw;
     }
 
     img.movie-poster {
@@ -511,7 +513,6 @@ img.test-image {
         width: 94vw;
         text-align: center;
         background: #3a3333;
-        margin-left: 3vw;
     }
     
 img.heart {
@@ -579,6 +580,7 @@ hr.bottom-line {
     width: 94.5vw;
     top: 446.5vw;
     margin-left: 2vw;
+    margin-top: 12vw;
 }
 
 img.bottom-logo-image {
@@ -619,6 +621,7 @@ hr.categories-separator {
     border: none;
     height: 0.06em;
     margin-left: 21vw;
+    margin-top: 18vw;
 }
 
 .cat-movie-poster-div{
