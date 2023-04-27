@@ -12,15 +12,6 @@ img.mobile-advertisement {
     display: none;
 }
 
-nav {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    background-image: linear-gradient(#141413,transparent);
-    position:absolute;
-    top: 0vh;
-}
-
 .desktop-logo {
     width: 58vw;
 }
@@ -184,7 +175,7 @@ img.movie-poster {
 }
 
 .cat-movie-poster-div {
-    margin-bottom: 82px;
+    /* margin-bottom: 82px; */
     position: relative;
 }
 
@@ -340,6 +331,27 @@ img.lscroll.button {
 
 img.test-image {
     height: 15vw;
+}
+
+.c-mobile-nav {
+    display: none;
+}
+
+nav.c-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(#141413,transparent);
+    top: 0vh;
+}
+
+nav.h-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(#141413,transparent);
+    position:absolute;
+    top: 0vh;
 }
 
 @media only screen and (max-width: 768px){
@@ -633,6 +645,10 @@ hr.categories-separator {
     width: 100%;
     display: flex;
     /* border: 2px solid yellow; */
+}
+
+nav.c-nav {
+    display: none;
 }
 
 
