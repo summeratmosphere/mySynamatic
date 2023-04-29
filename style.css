@@ -174,7 +174,7 @@ img.movie-poster {
     width: 20.5vw;
 }
 
-.cat-movie-poster-div {
+.hidden-movie-poster-div {
     /* margin-bottom: 82px; */
     position: relative;
 }
@@ -636,7 +636,7 @@ hr.categories-separator {
     margin-top: 18vw;
 }
 
-.cat-movie-poster-div{
+.hidden-movie-poster-div{
     display: none;
 }
 
